@@ -32,4 +32,3 @@ This workshop demonstrates developing an application using database server, webs
     * admin ``` http://127.0.0.1:8000/admin ```
 <div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/2-connect-database.md">--> Next</a></div>
 
-<div style="text-align: justify"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/2-connect-database.md">--> Next</a></div>
