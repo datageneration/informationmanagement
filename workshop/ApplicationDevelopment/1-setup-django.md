@@ -1,7 +1,8 @@
 # EPPS6354 Information Management workshop
-## Application development
 
 This workshop demonstrates developing an application using database server, webserver and application server.
+
+## I. Setup environment and web server
 
 1. Prerequisites
     * PostgreSQL
