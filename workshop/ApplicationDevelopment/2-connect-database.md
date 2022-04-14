@@ -35,3 +35,4 @@
     * Inspect Models, visit ``` http://127.0.0.1:8000/admin ```
     * Login using your superuser credentials 
 
+-- [next](https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/3-build-catalog-app.md)
