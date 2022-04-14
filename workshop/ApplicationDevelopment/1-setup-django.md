@@ -21,6 +21,7 @@ This workshop demonstrates developing an application using database server, webs
       * Installation guides
       | [MacOS](https://docs.djangoproject.com/en/3.2/topics/install/)         | [Windows](https://docs.djangoproject.com/en/3.2/howto/windows/)   | 
       
+    * ```cd epps6354``` 
     * ```python -m pip install Django``` # Install Django
     * ```pip install psycopg2-binary ``` # Install PostgreSQL database adapter
     * ```python -m django --version```  # Check if Django installed
