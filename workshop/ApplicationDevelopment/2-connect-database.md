@@ -4,6 +4,7 @@
 
 1. Confirm Web Server is running
     * ``` cd epps6354 ```
+    * ``` cd mysite ```
     * Run Webserver ``` python manage.py runserver ```
     * In your favorite browser, go to ``` http://127.0.0.1:8000/ ``` 
     * admin ``` http://127.0.0.1:8000/admin ```
