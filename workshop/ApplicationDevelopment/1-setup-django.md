@@ -14,7 +14,8 @@ This workshop demonstrates developing an application using database server, webs
     * ```python -m venv epps6354``` # Set up virtual environment for project
        | MacOS         | Windows   | 
       |:-------------:|:-------------:| 
-      |```epps6354/bin/activate``` | ```epps6354\Scripts\activate.bat```|
+      |```cd epps6354/bin``` | ```cd epps6354\Scripts```|
+      |```activate```        | ```activate.bat```       |
   
       * Installation guides
       | [MacOS](https://docs.djangoproject.com/en/3.2/topics/install/)         | [Windows](https://docs.djangoproject.com/en/3.2/howto/windows/)   | 
