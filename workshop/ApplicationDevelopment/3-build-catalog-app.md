@@ -1,3 +1,8 @@
+# EPPS6354 Information Management workshop
+
+## III. Database functions
+
+
 # [Catalog](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 [MVC]: https://mdn.mozillademos.org/files/13931/basic-django.png "MVC"
 [MVC Flow](https://mdn.mozillademos.org/files/13931/basic-django.png)
