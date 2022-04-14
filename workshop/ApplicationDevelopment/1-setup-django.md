@@ -31,4 +31,4 @@ This workshop demonstrates developing an application using database server, webs
     * In your favorite browser, go to ``` http://127.0.0.1:8000/ ``` 
     * admin ``` http://127.0.0.1:8000/admin ```
 
---> [next](https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/2-connect-database.md)
+<H3 align="right">--> [Next](https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/2-connect-database.md)</H3>
