@@ -1,3 +1,7 @@
+# EPPS6354 Information Management workshop
+
+## II. Connect to database
+
 1. Confirm Web Server is running
     * ``` cd epps6354 ```
     * Run Webserver ``` python manage.py runserver ```
