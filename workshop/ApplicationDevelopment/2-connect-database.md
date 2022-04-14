@@ -36,4 +36,4 @@
     * Login using your superuser credentials 
 
 <div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/2-connect-database.md"><-- Back</a></div>
-<div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/3-build-catalog-app.md"><-- Next</a></div>
+<div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/3-build-catalog-app.md"> Next--></a></div>
