@@ -18,3 +18,6 @@ This workshop demonstrates developing an application using database server, webs
 ###### PHP - CodeIgniter
 ###### Microsoft - ASP.NET, C# 
  
+
+
+<div align="center"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/1-setup-django.md">-- Start -- </a></div>
