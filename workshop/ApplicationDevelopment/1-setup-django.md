@@ -22,7 +22,7 @@ This workshop demonstrates developing an application using database server, webs
     * ```python -m pip install Django``` # Install Django
     * ```pip install psycopg2-binary ``` # Install PostgreSQL database adapter
     * ```python -m django --version```  # Check if Django installed
-3. Initiate a project [Tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/)
+3. Initiate a project (Read this [Tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/ for building a Django project for the first time)
     * Initiate project structure``` django-admin startproject mysite ```
     * ``` cd mysite ``` (check if manage.py is in the folder/directory)
     * Run Webserver ``` python manage.py runserver ```
