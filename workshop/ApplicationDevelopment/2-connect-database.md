@@ -35,5 +35,5 @@
     * Inspect Models, visit ``` http://127.0.0.1:8000/admin ```
     * Login using your superuser credentials 
 
-<div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/2-connect-database.md"><-- Back</a></div>
+<div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/1-setup-django.md"><-- Back</a></div>
 <div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/ApplicationDevelopment/3-build-catalog-app.md"> Next--></a></div>
