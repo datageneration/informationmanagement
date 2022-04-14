@@ -1,6 +1,6 @@
 # EPPS6354 Information Management workshop
 
-## III. Database functions
+## III. Creating applications 
 
 
 # [Catalog](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
