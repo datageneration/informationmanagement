@@ -1,8 +1,8 @@
-# EPPS6354 Information Management workshop
+# EPPS6354 Information Management workshop: Shiny
 
 This workshop demonstrates developing a Shiny application using database server (PostgreSQL) and Shiny server.
 
-## I. Setup environment and web server
+## I. Setup environment in RStudio
 
 1. Prerequisites
     * R 4.x
@@ -64,7 +64,7 @@ server <- function(input, output) {
     x    <- faithful$waiting
     bins <- seq(min(x), max(x), length.out = input$bins + 1)
     
-    hist(x, breaks = bins, col = "#75AADB", border = "white",
+    hist(x, breaks = bins, col = "blue", border = "white",
          xlab = "Waiting time to next eruption (in mins)",
          main = "Histogram of waiting times")
     
@@ -73,9 +73,6 @@ server <- function(input, output) {
 }
 
 shinyApp(ui = ui, server = server)
-
-# setwd('/Users/kchen/workspaces/rstudio/apps')
-# runApp("app1")
 
 ```
 
