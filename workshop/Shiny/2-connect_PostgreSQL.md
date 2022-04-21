@@ -12,9 +12,9 @@ This workshop demonstrates developing a Shiny application using database server 
 
 ```
 
-# install.packages("DBI", "Rpostgres")
+# install.packages(c("DBI", "RPostgres"))
 library(DBI)
-library(Rpostgres)
+library(RPostgres)
 
 # connect to postgres database
 postgre_con <- dbConnect(RPostgres::Postgres(),
@@ -24,7 +24,7 @@ postgre_con <- dbConnect(RPostgres::Postgres(),
                  user = 'postgres',
                  password = 'YOURPASSWORD') # type in your PostgreSQL/pgAdmin password
 
-postgres_sql <- "SELECT * FROM department". # Create SQL query object
+postgres_sql <- "SELECT * FROM department" # Create SQL query object
 
 dbGetQuery(postgre_con, postgres_sql) 
 
