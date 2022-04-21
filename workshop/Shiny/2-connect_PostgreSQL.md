@@ -32,6 +32,6 @@ department_df <- dbGetQuery(postgre_con, postgres_sql)
 class(department_df)
 
 ```
-<div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/1-setup.md">--> Next</a></div>
+<div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/1-setup-shiny.md"><-- Back</a></div>
 <div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/3-connect_NBAdatabase.md">--> Next</a></div>
 
