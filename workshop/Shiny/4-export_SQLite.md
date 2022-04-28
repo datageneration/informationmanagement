@@ -16,7 +16,7 @@ pg_dump --create --inserts -f nba.sql -d NBAplayers -U postgres
 
 ```
 
-This will create a dump file with SQL codes for scheme and data inserts.
+This will create a dump file with SQL codes for schema (DDL) and data inserts.
 
 **Important**: Use a text editor to ope nba.sql file and delete everything except CREATE TABLES and INSERT statements.  If the public prefix is added to the table names, use replace function in text editor to remove that.
 
