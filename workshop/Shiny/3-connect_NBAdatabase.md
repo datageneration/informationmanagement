@@ -9,14 +9,18 @@ This workshop demonstrates developing a Shiny application using database server 
 
 2. Sample SQL program in Shiny directory
 
-    * Create database named NBAplayers in PostgreSQL (using pgAdmin) and populate data using the NBAplayers.sql file (combined with DDL and data insert) 
-    * Check data in pdAdmin
+    * Create database named NBAplayers in PostgreSQL (using pgAdmin) and populate data using the [NBAplayers.sql](https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/NBAplayers.sql?raw=true) file (combined with DDL and data insert) 
+    * Check data in pgAdmin
 
-3. 
+3. R program
+
+   - Be sure to install packages needed to run Shiny in RStudio  
 ```
+install.packages(c("shiny","DBI","RPostgres","RSQLite"))
 library(shiny)
 library(DBI)
 library(RPostgres)
+library(RSQLite)
 
 # Define UI
 ui <- fluidPage(
@@ -36,7 +40,7 @@ server <- function(input, output) {
                     #  host = '127.0.0.1',
                       port = 5432, 
                       user = 'postgres',
-                      password = 'YOURPASSWORD')
+                      password = 'YOURPASSWORD') # Type in your database server password
     postgres_sql="SELECT * FROM player Where is_active = '1' "
 
     conn=postgres_conn
@@ -53,5 +57,5 @@ shinyApp(ui = ui, server = server)
 
 ```
 <div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/2-connect_PostgreSQL.md"><-- Back</a></div>
-<div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/4-deploy_NBAdatabase.md">--> Next</a></div>
+<div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/4-export_SQLite.md">--> Next</a></div>
 
