@@ -83,5 +83,5 @@ shinyApp(ui = ui, server = server)
 
 ```
 <div align="left"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/3-connect_NBAdatabase.md"><-- Back</a></div>
-<div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/5-deploy_NBAdatabase.md">--> Next</a></div>
+<div align="right"><a href="https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/5-deploy_app.md">--> Next</a></div>
 
