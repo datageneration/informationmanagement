@@ -2,7 +2,7 @@
 
 This workshop demonstrates developing a Shiny application using database server (PostgreSQL) and Shiny server.
 
-## IV. Deploy to Shiny server
+## V. Deploy to Shiny server
 
 1. Prerequisites
     * Shinyapps account (connect using GitHub)
