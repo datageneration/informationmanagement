@@ -12,12 +12,9 @@ This workshop demonstrates developing a Shiny application using database server 
 
 Open Terminal (MacOS) or Command window (Windows) to execute pg_dump
 ```
-pg_dump --create --inserts -f myPgDump.sql -d myDatabaseName -U myUserName
+pg_dump --create --inserts -f nba.sql -d NBAplayers -U postgres
 
 ```
-  - Use "nba.sql" for myPgDump.sql
-  - Use "NBAplayers" as myDatabaseName
-  - Use "postgres" as myUsername
 
 This will create a dump file with SQL codes for scheme and data inserts.
 
