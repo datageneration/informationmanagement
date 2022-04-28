@@ -10,7 +10,7 @@ This workshop demonstrates developing a Shiny application using database server 
 
 2. Export PostgreSQL database using pg_dump
 
-Open Terminal (MacOS) or Command window (Windows) to execute pg_dump
+Open Terminal (MacOS) or Command window (Windows) to execute pg_dump:
 ```
 pg_dump --create --inserts -f nba.sql -d NBAplayers -U postgres
 
