@@ -33,12 +33,12 @@ type NBAPlayer.sql | sqlite3 nba.db
 
 This will create a Postgre dump file with SQL codes for schema (DDL) and data inserts.
 
-**Important**: Use a text editor to ope nba.sql file and delete everything except CREATE TABLES and INSERT statements.  If the public prefix is added to the table names, use replace function in text editor to remove that.
+**Important**: Use a text editor to open NBAplayers.sql file and delete everything except CREATE TABLES and INSERT statements.  If the public prefix is added to the table names, use replace function in text editor to remove that.
 
 [pg_dump documentation](https://www.postgresql.org/docs/current/app-pgdump.html)
 
 
-3. Import SQLite database in RStudio
+## Import SQLite database in RStudio
 
 Use the following R program (app.R) to import and run Shiny app.  
 
