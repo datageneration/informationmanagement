@@ -4,41 +4,15 @@ This workshop demonstrates developing a Shiny application using database server 
 
 ## IV. Export database to SQLite for deployment
 
-### Method I: Convert database from SQL file (DLL + DML) using DB Browser
+### Convert database from SQL file (DLL + DML) using DB Browser
 
   - Open DB Browser, import NBAplayers.sql (File --> Import --> Database from SQL file)
   - Choose a filename to save under (use nba)
 
 Now, you have the nba database file (nba.db) in SQLite format!
 
-### Method II: for database on PostgreSQL server
 
-1. Prerequisites
-    * Sample NBA database uploaded to server
-    * Download and install [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
-
-2. Export PostgreSQL database using pg_dump
-
-**Note**: Download and install [PostgreSQL Binaries](https://www.enterprisedb.com/download-postgresql-binaries) for pg_dump.
-
-Open Terminal (MacOS) or Command window (Windows) to execute pg_dump:
-#### Mac
-```
-cat NBAPlayer.sql | sqlite3 nba.db
-```
-#### Windows
-```
-type NBAPlayer.sql | sqlite3 nba.db
-```
-
-This will create a Postgre dump file with SQL codes for schema (DDL) and data inserts.
-
-**Important**: Use a text editor to open NBAplayers.sql file and delete everything except CREATE TABLES and INSERT statements.  If the public prefix is added to the table names, use replace function in text editor to remove that.
-
-[pg_dump documentation](https://www.postgresql.org/docs/current/app-pgdump.html)
-
-
-## Import SQLite database in RStudio
+### Import SQLite database in RStudio
 
 Use the following R program (app.R) to import and run Shiny app.  
 
