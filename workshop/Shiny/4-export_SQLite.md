@@ -44,7 +44,7 @@ server <- function(input, output) {
     
     # Create SQL commmand to join variables from tables for query
     
-    sqlite_sql="SELECT p.id, p.first_name, p.last_name, p.full_name, pp.urlplayerheadshot FROM player p INNER JOIN player_photos pp ON pp.idplayer=p.id WHERE p.is_active=1"
+    sqlite_sql="SELECT p.id, p.first_name, p.last_name, p.full_name, pp.urlPlayerHeadshot FROM player p INNER JOIN player_photos pp ON pp.idplayer=p.id WHERE p.is_active=1"
 
     conn=sqlite_conn
     str_sql = sqlite_sql
