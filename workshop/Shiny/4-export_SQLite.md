@@ -6,7 +6,7 @@ This workshop demonstrates developing a Shiny application using database server 
 
 ### Method I: Convert database from SQL file (DLL + DML) using DB Browser
 
-  - Open DB Browser, import nba.sql (File --> Import --> Database from SQL file)
+  - Open DB Browser, import NBAplayers.sql (File --> Import --> Database from SQL file)
   - Choose a filename to save under (use nba)
 
 Now, you have the nba database file (nba.db) in SQLite format!
