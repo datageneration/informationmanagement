@@ -13,9 +13,13 @@ This workshop demonstrates developing a Shiny application using database server 
 **Note**: Download and install [PostgreSQL Binaries](https://www.enterprisedb.com/download-postgresql-binaries) for pg_dump.
 
 Open Terminal (MacOS) or Command window (Windows) to execute pg_dump:
+### Mac
 ```
-pg_dump --create --inserts -f nba.sql -d NBAplayers -U postgres
-
+cat NBAPlayer.sql | sqlite3 nba.db
+```
+### Windows
+```
+type NBAPlayer.sql | sqlite3 nba.db
 ```
 
 This will create a Postgre dump file with SQL codes for schema (DDL) and data inserts.
