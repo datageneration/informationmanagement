@@ -24,7 +24,7 @@ postgre_con <- dbConnect(RPostgres::Postgres(),
                  user = 'postgres',
                  password = 'YOURPASSWORD') # type in your PostgreSQL/pgAdmin password
 
-postgres_sql <- "SELECT * FROM department" # Create SQL query object
+postgres_sql <- "SELECT * FROM instructor" # Create SQL query object
 
 dbGetQuery(postgre_con, postgres_sql) 
 
