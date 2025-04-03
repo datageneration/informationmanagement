@@ -6,7 +6,7 @@ This workshop demonstrates developing a Shiny application using database server 
 
 1. Prerequisites
     * R 4.x
-    * RStudio 2022.x
+    * RStudio Version: > 2024.12.x
 
 2. Install packages
     * Start up Rstudio
