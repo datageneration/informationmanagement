@@ -9,7 +9,7 @@ This workshop demonstrates developing a Shiny application using database server 
 
 2. Sample SQL program in Shiny directory
 
-    * Create database named NBAplayers in PostgreSQL (using pgAdmin) and populate data using the [NBAplayers.sql](https://github.com/datageneration/informationmanagement/blob/master/workshop/Shiny/NBAplayers.sql?raw=true) file (combined with DDL and data insert) 
+    * Create database named NBAplayers in PostgreSQL (using pgAdmin) and populate data using the [NBAplayers.sql](https://raw.githubusercontent.com/datageneration/informationmanagement/refs/heads/master/workshop/Shiny/NBAPlayers.sql) file (combined with DDL and data insert) 
     * Be sure to spell the database name exactly as "NBAplayers"
     * Check data in pgAdmin
 
